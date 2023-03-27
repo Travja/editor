@@ -10,22 +10,31 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <script id="DragDropTouch" src="https://bernardo-castilho.github.io/DragDropTouch/DragDropTouch.js"></script>
   <meta http-equiv="content-security-policy" content="">
-		<link rel="modulepreload" href="/_app/immutable/start-a65e21c0.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/index-3d9d6425.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/singletons-986787d4.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/control-e7f5239e.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.43dd4b4c.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.859b3253.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/singletons.4114ee5c.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.49714ac9.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/control.e7f5239e.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.683fe829.js">
 </head>
 <body data-sveltekit-preload-data="hover">
 <div id="svelte-body">
-		<script type="module" data-sveltekit-hydrate="45h">
-			import { start } from "/_app/immutable/start-a65e21c0.js";
+			<script>
+				{
+					__sveltekit_1rmro8k = {
+						env: {},
+						base: "",
+						element: document.currentScript.parentElement
+					};
 
-			start({
-				assets: "",
-				env: {},
-				target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
-				version: "1679345380238"
-			});
-		</script></div>
+					Promise.all([
+						import("/_app/immutable/entry/start.43dd4b4c.js"),
+						import("/_app/immutable/entry/app.683fe829.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_1rmro8k.element);
+					});
+				}
+			</script>
+		</div>
 </body>
 </html>
