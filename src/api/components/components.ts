@@ -3505,7 +3505,7 @@ export const initComponents = () => {
 		DELAY:               { name: 'Delay', component: DelayMechanic },
 		DISGUISE:            { name: 'Disguise', component: DisguiseMechanic },
 		DURABILITY:          { name: 'Durability', component: DurabilityMechanic },
-		EXPERIENCE: { name: 'Experience', component: ExperienceMechanic},
+		EXPERIENCE:          { name: 'Experience', component: ExperienceMechanic},
 		EXPLOSION:           { name: 'Explosion', component: ExplosionMechanic },
 		FIRE:                { name: 'Fire', component: FireMechanic },
 		FLAG:                { name: 'Flag', component: FlagMechanic },
