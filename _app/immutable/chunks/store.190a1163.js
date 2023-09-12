@@ -1,4 +1,4 @@
-var re=Object.defineProperty;var le=(n,e,t)=>e in n?re(n,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):n[e]=t;var i=(n,e,t)=>(le(n,typeof e!="symbol"?e+"":e,t),t);import{w as f,j as ae,k as ce}from"./singletons.2ec59a3c.js";import{I as a}from"./index.e9b9921d.js";const Z={INT:/^-?[0-9]+$/,FLOAT:/^-?[0-9]+\.[0-9]+$/,SPACE:/^( +)/},L=n=>{n=n.replace(/\r\n/g,`
+var re=Object.defineProperty;var le=(n,e,t)=>e in n?re(n,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):n[e]=t;var i=(n,e,t)=>(le(n,typeof e!="symbol"?e+"":e,t),t);import{w as f,j as ae,k as ce}from"./singletons.ffe2763d.js";import{I as a}from"./index.e9b9921d.js";const Z={INT:/^-?[0-9]+$/,FLOAT:/^-?[0-9]+\.[0-9]+$/,SPACE:/^( +)/},L=n=>{n=n.replace(/\r\n/g,`
 `).replace(/\n *\n/g,`
 `).replace(/ +\n/g,`
 `);const e=new m,t=0,s=n.split(`
