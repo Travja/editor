@@ -2,8 +2,6 @@ import adapter     from '@sveltejs/adapter-static';
 import preprocess  from 'svelte-preprocess';
 import { resolve } from 'path';
 
-const dev = process.argv.includes('dev');
-
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	// Consult https://github.com/sveltejs/svelte-preprocess
@@ -20,9 +18,6 @@ const config = {
 			precompress: false,
 			strict:      true
 		}),
-		paths:   {
-			base: dev ? '' : '/proskillapi'
-		},
 		alias:   {
 			$api:        resolve('./src/api'),
 			$input:      resolve('./src/components/input'),
