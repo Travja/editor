@@ -18,6 +18,9 @@ const config = {
 			precompress: false,
 			strict:      true
 		}),
+		paths: {
+			base: ''
+		},
 		alias:   {
 			$api:        resolve('./src/api'),
 			$input:      resolve('./src/components/input'),
